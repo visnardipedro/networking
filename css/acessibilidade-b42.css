@@ -1,0 +1,144 @@
+
+/* background preto e cor do texto amarelo */
+
+body, section, .capa-topico, .titulo-topico, .introducao{
+  background-color: #000 !important;
+  color: #ffffff !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* capa tópico código específico*/
+.capa-topico{
+border-bottom: 2px solid #ffffff !important;
+}
+
+.topico-div{
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+
+}
+
+
+/* textos amarelos */
+
+ .texto, p, h1, h2, h3, h4, h5, h6, blockquote, ul,ol {
+  color: #ffffff !important;
+ }
+
+
+ .texto-duas-colunas-foto, .duas-colunas-container,  .introducao-section, .box, .duas-colunas-foto{
+  background-image:  none !important;
+  background-color: #212121 !important;
+  box-shadow: none !important;
+ }
+
+
+ .btn-box{
+  background-color: rgba(255, 254, 149, 0.1) !important;
+  color: #ffe266 !important;
+ }
+
+  .btn-box:hover{
+  background-color: rgba(255, 254, 149, 0.3) !important;
+  color: #ffe266 !important;
+}
+
+
+/*escurecer a capa */
+.capa-abertura {
+  background-image: url(../images/subbg03.svg), url(../images/subbg02.svg), url(../images/espiral.svg), linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), linear-gradient(180deg, rgba(198, 93, 88, 0.8), rgba(252, 197, 107, 0.8) 25%, rgba(255, 226, 102, 0.8) 50%, rgba(172, 215, 128, 0.8) 75%, rgba(161, 165, 219, 0.8)), url(../images/foto-capa-m01.jpg) !important;
+}
+
+/* bolinho do menu */
+.d-82-menu-trigger-wrapper{
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(72, 123, 148, 0.95)), to(rgba(53, 107, 134, 0.95))) !important;
+}
+
+
+/* esconder o item de alto contraste */
+.toggle.altoContraste{
+  display: none !important;
+}
+
+/*pagina da trilha */
+
+.secao-entenda-conteudo{
+ background-image: url('../images/bg-entenda.svg'), -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(87%, #000)), url('../images/subbg03.svg'), url('../images/subbg03.svg') !important;
+}
+
+.secao-conteudo-habilite{
+ background-image: url('../images/bg-habilite.svg'), -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(87%, #000)), url('../images/subbg03.svg'), url('../images/subbg03.svg') !important;
+}
+
+
+.secao-conteudo-saiba{
+ background-image: url('../images/bg-saiba.svg'), -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(87%, #000)), url('../images/subbg03.svg'), url('../images/subbg03.svg') !important;
+}
+
+
+.secao-conteudo-tente{
+  background-image: url('../images/bg-tente.svg'), -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(87%, #000)), url('../images/subbg03.svg'), url('../images/subbg03.svg') !important;
+
+}
+
+.secao-mova-conteudo{
+  background-image: url('../images/bg-mova.svg'), -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(87%, #000)), url('../images/subbg03.svg'), url('../images/subbg03.svg') !important;
+
+}
+
+.apresentacao-div.menu {
+background-image: linear-gradient(180deg, #080808, hsla(0, 0%, 8%, 0.85)) !important;
+}
+
+.texto-objetivo, .categoria, .texto-destaque{
+ background-color: #191919 !important;
+}
+
+
+
+/* Tabela */
+
+* table tr:nth-child(even) {
+    background-color: #1b3241 !important;
+}
+
+* table tr:nth-child(odd) {
+   background-color: #0f1920 !important;
+}
+
+table td{
+  color:#fff !important;
+}
+
+.imagem-ilustrativa{
+  background-color: #ffffff !important;
+}
+
+.container-box01{
+  background-image: none !important;
+
+}
+
+.section-sumario{
+  background-image: url(../images/line-bg-01.svg), radial-gradient(circle farthest-side at 50% 50%, #2b0035 16%, #000000) !important;
+}
+
+/* Recapitulando */
+
+.recapitulando{ 
+ background-image: url(../images/info-rocket.svg), url(../images/stars.svg), linear-gradient(180deg, #000000, #000000) !important;
+  }
+
+  .info-passos{
+ background-image: linear-gradient(180deg, #000000, #000000) !important;
+
+  }
+
+  .info-texto-01 h1{
+    color: #000000 !important;
+  }
+
+ .info-texto-01 h4{
+    color: #ffb327 !important;
+  }
